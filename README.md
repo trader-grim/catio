@@ -1,7 +1,8 @@
+
 # Catio — Local-First, Bounded Linux Runtimes for AI Agents
 
 <p align="center">
-  <img src="catio_github_watermarked_img_8966606370108936522.jpg" alt="Catio OS - Fenced Linux AI Runtimes" width="100%"/>
+  <img width="1024" height="506" alt="catio_github_watermarked_img_8966606370108936522" src="https://github.com/user-attachments/assets/5318af2a-5b8d-43b9-ad35-221f02da5d09"  alt="Catio OS - Fenced Linux AI Runtimes" width="100%"/>
 </p>
 
 > **Reasoning Proposes. Determinism Commits.**  
