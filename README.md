@@ -48,9 +48,10 @@ We are rolling out Catio incrementally, using our own commercial workloads as an
 
 Catio is an independent open-source digital infrastructure initiative. To maintain our development momentum while operating under strict budget constraints, we actively welcome support across several avenues:
 
+* **Direct Contributions & Sponsorship:** Support ongoing infrastructure costs, server hosting, domain renewals, coffee and other necessities via [Buy Me a Coffee](https://buymeacoffee.com/catio) or [GitHub Sponsors](https://github.com/sponsors/trader-grim).
 * **Hardware & Build Node Donations:** Dedicated mini PCs, bare-metal server instances, or low-spec x86/ARM hardware (e.g., Raspberry Pi 4/5, Intel NUCs, repurposed enterprise nodes) to expand our physical testing matrix and host continuous build nodes.
 * **Developer & Infrastructure Grants:** Non-profit digital infrastructure funding (e.g., NLnet, Sovereign Tech Fund) and cloud hosting allocations to cover target VPS nodes and public benchmarks.
 * **API Credit & Service Sponsorships:** Model access and API credit allocations to evaluate low-latency classification engines (e.g., TypeSafe Jev) against live kernel map updates.
 * **Technical Collaborators:** Systems engineers interested in eBPF LSM, Go runtime safety, POSIX capability models, and deterministic agent containment.
 
-For hardware shipping details, architectural briefs, technical specifications, or collaboration inquiries, please reach out via [GitHub Issues](../../issues) or contact the maintainers directly.
+For hardware shipping details, architectural briefs, technical specifications, or collaboration inquiries, please reach out via [GitHub Issues](../../issues) or contact the maintainers directly., architectural briefs, technical specifications, or collaboration inquiries, please reach out via [GitHub Issues](../../issues) or contact the maintainers directly.
