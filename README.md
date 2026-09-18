@@ -1,14 +1,45 @@
+# Catio — Local-First, Bounded Linux Runtimes for AI Agents
+
+<p align="center">
+  <img src="catio_github_watermarked_img_8966606370108936522.jpg" alt="Catio OS - Fenced Linux AI Runtimes" width="100%"/>
+</p>
+
+> **Reasoning Proposes. Determinism Commits.**  
+> Catio is an open-source architecture and local-first Linux runtime designed to eliminate ambient authority hazards in autonomous AI agents.
+
+---
+
+## 📌 The Problem: Ambient Authority in Agent Workflows
+
+Granting autonomous AI agents unconstrained shell access, broad file system privileges, or arbitrary tool-calling capability exposes host systems to severe operational hazards:
+* **Unbounded System Access:** Discretionary scope expansion and privilege escalation.
+* **Context Poisoning:** Uncurated retrieval memory leading to hallucinated or adversarial tool calls.
+* **State Corruption:** Non-atomic system modifications leaving host configurations broken.
+
+---
+
+## 🛡️ Core Architectural Thesis
+
+**Deterministic workflows provide the only practical, OS-wide solution for safe AI integration today.** 
+
+Rather than relying on non-deterministic LLMs to enforce their own safety boundaries, Catio decouples reasoning from execution:
+1. **LLMs Act as Proposers:** Models generate structured task DAGs inside isolated environments.
+2. **PREMIS(X) Enforces Capabilities:** Signed contract ceilings evaluate permissions via $\text{Effective Permission} = \min(\text{Role}, \text{Requester})$.
+3. **Kernel Gates Enforce Execution:** eBPF LSM hooks drop unauthorized syscalls (`EPERM`) at hardware speeds before state changes occur.
+
+---
+
 ## 🚦 Project Status & Development Roadmap
 
-We are rolling out Catio incrementally, using our own commercial workloads as an active "eat-your-own-dogfood" testbed.
+We are rolling out Catio incrementally, using our own commercial workloads as an active "eat-your-own-catfood" testbed.
 
 | Component | Domain / Role | Status |
 | :--- | :--- | :--- |
 | **PREMIS(X)** | Contract-based capability permission engine | **PoC / Active Stub** |
 | **Ratter** | Isolated container build & runtime harness | **PoC / Active** |
-| **The Librarian (Dewey)** | Scoped Recoll search indexes ("The Stacks") | **Specification** |
+| **The Librarian (Dewey)** | Scoped Recoll search indexes ("The Stacks") | **PoC / Active** |
 | **The Claw** | eBPF LSM kernel syscall enforcement gates | **Specification / Benchmarking** |
-| **Meowster** | Schema-first backward-chaining DAG planner | **Specification** |
+| **Meowster** | Schema-first backward-chaining DAG planner | **In Progress** |
 
 ---
 
