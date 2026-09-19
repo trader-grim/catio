@@ -52,7 +52,7 @@ Catio is an independent open-source digital infrastructure initiative. To mainta
 * **Hardware & Build Node Donations:** Dedicated mini PCs, bare-metal server instances, or low-spec x86/ARM hardware (e.g., Raspberry Pi 4/5, Intel NUCs, repurposed enterprise nodes) to expand our physical testing matrix and host continuous build nodes.
 * **Developer & Infrastructure Grants:** Non-profit digital infrastructure funding (e.g., NLnet, Sovereign Te, architectural briefs, technical specifications, or collaboration inquiries, please reach out via [GitHub Issues](../../issues) or contact the maintainers directly.
 ch Fund) and cloud hosting allocations to cover target VPS nodes and public benchmarks.
-* **API Credit & Service Sponsorships:** Model access and API credit allocations to evaluate low-latency classification engines (e.g., TypeSafe Jev) against live kernel map updates.
+* **API Credit & Service Sponsorships:** Model access and API credit allocations to evaluate low-latency classification engines against live kernel map updates.
 * **Technical Collaborators:** Systems engineers interested in eBPF LSM, Go runtime safety, POSIX capability models, and deterministic agent containment.
 
 For hardware shipping details, architectural briefs, technical specifications, or collaboration inquiries, please reach out via [GitHub Issues](../../issues) or contact the maintainers directly.
